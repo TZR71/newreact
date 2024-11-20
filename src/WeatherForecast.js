@@ -4,7 +4,6 @@ import WeatherForecastDay from "./WeatherForecastDay";
 import "./WeatherForecast.css";
 
 export default function WeatherForecast(props) {
-  console.log(props);
   const [ready, setReady] = useState(false);
   const [forecastData, setForecastData] = useState(null);
 
@@ -38,7 +37,6 @@ export default function WeatherForecast(props) {
     const apiKey = "eb0432d8499otf6b1e6a9e4fe11cf387";
     let city = props.details.coordinates;
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lon=${props.details.coordinates.longitude}&lat=${props.details.coordinates.latitude}&key=${apiKey}`;
-    console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
 
     return null;
