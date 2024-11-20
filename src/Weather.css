@@ -1,0 +1,53 @@
+:root{
+    --primary-color:rgb(134, 121, 121);
+
+}
+
+.Weather{
+    font-family: "poppins";
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 35px;
+    margin:30px auto;
+   
+   
+}
+.Weather .btn {
+    box-shadow:  0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Weather h1{
+    font-size: 35px;
+    margin-top: 25px;
+}
+.Weather ul{
+    margin:0;
+    padding:0;
+}
+.Weather li{
+    list-style: none;
+    color: var(--primary-color);
+    font-size: 18px;
+    
+}
+.Weather img{
+    max-height: 120px;
+    margin-left:-20px;
+    
+}
+.Weather .degrees{
+    font-size: 35px;
+    
+    
+}
+.Weather .units{
+    font-size: 20px;
+    position:relative;
+    top: -15px;
+    margin-left: -4px;
+    line-height: 1;
+}
+.Weather .units a{
+    font-size: 14px;
+
+}

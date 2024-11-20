@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Weather defaultCity="Palermo" />
+        <footer>
+          This project was created by{" "}
+          <a href="https://github.com/TZR71" target="_blank" rel="noreferrer">
+            Tiina Rojola{" "}
+          </a>{" "}
+          and is open-sourced on {""}
+          <a
+            href="https://github.com/TZR71/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://tr-weather-react.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+          .
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
