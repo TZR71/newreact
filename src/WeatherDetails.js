@@ -2,6 +2,7 @@ import React from "react";
 import CorrectedDate from "./CorrectedDate";
 import WeatherUnits from "./WeatherUnits";
 
+
 export default function WeatherDetails(props) {
   return (
     <div className="WeatherDetails">
@@ -21,11 +22,13 @@ export default function WeatherDetails(props) {
           <WeatherUnits celcius={props.details.temperature} />
         </div>
         <div className="col-6">
-          <ul>
-            <li> Humidity: {props.details.humidity}%</li>
-            <li> Wind: {props.details.wind} km/h</li>
-            <li> Feels like: {Math.round(props.details.feels_like)}°C</li>
-          </ul>
+          
+            <ul>
+              <li> Humidity: {props.details.humidity}%</li>
+              <li> Wind: {props.details.wind} km/h</li>
+              <li> Feels like: {Math.round(props.details.feels_like)}°C</li>
+            </ul>
+          
         </div>
       </div>
     </div>
