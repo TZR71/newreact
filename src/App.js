@@ -9,14 +9,14 @@ export default function App() {
         <Weather defaultCity="Palermo" />
         <footer>
           This project was created by{" "}
-          <a href="https://github.com/TZR71" target="_blank" rel="noreferrer">
+          <a href="https://github.com/TZR71" target="_blank" rel="<noopener noreferrer>">
             Tiina Rojola{" "}
           </a>{" "}
           and is open-sourced on {""}
           <a
             href="https://github.com/TZR71/weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="<noopener noreferrer>"
           >
             GitHub
           </a>{" "}
@@ -24,7 +24,7 @@ export default function App() {
           <a
             href="https://tr-weather-react.netlify.app/"
             target="_blank"
-            rel="noreferrer"
+            rel="<noopener noreferrer>"
           >
             Netlify
           </a>
