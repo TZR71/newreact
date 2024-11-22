@@ -68,7 +68,7 @@ export default function Weather(props) {
   } else {
     search();
     return (
-      <ColorRing
+      <ColorRing      
         visible={true}
         height="80"
         width="80"

@@ -1,18 +1,15 @@
-body{
-  background-image: url("images/northern_1.jpg");
-}
-
 .App {
   
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;  
 }
 
 .App footer {
   text-align: center;
   font-size: 12px;
-  color: white;
+  padding-bottom: 30px;
+  
 }
-.App footer a{
-  color:aqua;
+
+@media(max-width:950px){
 }

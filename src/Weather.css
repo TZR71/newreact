@@ -4,12 +4,17 @@
 }
 
 .Weather{
-    background-color: white;
+    
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  
+  
+
     font-family: "poppins";
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     padding: 35px;
     margin:30px auto;
+   
    
    
 }
