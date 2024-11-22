@@ -2,20 +2,20 @@
     box-shadow:  0 3px 5px rgba(0, 0, 0, 0.5);
     border: rgb(134, 121, 121);
     border-radius: 4px;
-    padding:3px;
+    padding:10px 3px;
+    font-size: 18px;
+   
        
 }
  
 @media (max-width: 950px){
 
     .ForecastDetails{
-        margin-bottom: 35px;
+        margin-bottom: 30px;
         margin-top: 10px;
     }
 
    
-    .WeatherForecast{
-        font-size: 12px;
-    }
+    
 }
     

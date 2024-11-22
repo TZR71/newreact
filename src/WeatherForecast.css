@@ -1,6 +1,7 @@
 .WeatherForecast{
     color: rgb(134, 121, 121);  
     text-align: center;
+    margin-top:20px;
 }
 .WeatherForecast .ForecastTemperatureMin{
     opacity:60%;
