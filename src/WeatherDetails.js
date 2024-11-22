@@ -3,7 +3,6 @@ import CorrectedDate from "./CorrectedDate";
 import WeatherUnits from "./WeatherUnits";
 import "./WeatherDetails.css";
 
-
 export default function WeatherDetails(props) {
   return (
     <div className="WeatherDetails">

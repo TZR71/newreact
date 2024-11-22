@@ -61,9 +61,8 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <WeatherDetails details={weatherData} />       
+        <WeatherDetails details={weatherData} />
         <WeatherForecast details={weatherData} />
-        
       </div>
     );
   } else {

@@ -9,12 +9,16 @@ export default function App() {
         <Weather defaultCity="Palermo" />
         <footer>
           This project was created by{" "}
-          <a href="https://github.com/TZR71" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/TZR71"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Tiina Rojola{" "}
           </a>{" "}
           and is open-sourced on {""}
           <a
-            href="https://github.com/TZR71/weather-react"
+            href="https://github.com/TZR71/newreact"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +26,7 @@ export default function App() {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://tr-weather-react.netlify.app/"
+            href="https://react-weather-tr.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
