@@ -4,6 +4,7 @@
 }
 
 .Weather{
+    background-color: white;
     font-family: "poppins";
     border: 1px solid var(--primary-color);
     border-radius: 5px;
