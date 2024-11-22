@@ -27,7 +27,7 @@ export default function WeatherDetails(props) {
         </div>
       </div>
 
-      <div className="d-flex ">
+      <div className="d-flex justify-content-evenly ">
         <div >
           <img src={props.details.icon} alt={""}></img>{" "}
           <WeatherUnits celcius={props.details.temperature} />
