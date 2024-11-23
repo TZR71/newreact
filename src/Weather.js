@@ -3,7 +3,6 @@ import axios from "axios";
 import "./Weather.css";
 import WeatherDetails from "./WeatherDetails";
 import WeatherForecast from "./WeatherForecast";
-import ChangeBackground from "./ChangeBackground";
 import { ColorRing } from "react-loader-spinner";
 
 export default function Weather(props) {
