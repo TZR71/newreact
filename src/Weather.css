@@ -2,15 +2,21 @@
     --primary-color:rgb(134, 121, 121);
 
 }
+.container{
+     background-color: white; 
+     border: 1px solid var(--primary-color);
+     border-radius: 5px;
+     margin:5px auto;
+}
 
-.Weather{
-    
-    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);   
+.Weather{   
+      
     font-family: "poppins";
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     padding: 35px;
-    margin:30px auto;
+    margin: 15px auto;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.3);
    
    
    

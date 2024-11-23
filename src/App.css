@@ -1,15 +1,13 @@
-.App {
-  
+.App {  
   max-width: 600px;
   margin: 0 auto;  
 }
-
 .App footer {
   text-align: center;
   font-size: 12px;
-  padding-bottom: 30px;
-  
+  padding-bottom: 30px;  
 }
+
 
 @media(max-width:950px){
   .footer{
