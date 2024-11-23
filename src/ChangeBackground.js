@@ -1,4 +1,3 @@
-import "./ChangeBackground.css";
 const body = document.querySelector("body");
 const date = new Date();
 const hour = date.getHours();
