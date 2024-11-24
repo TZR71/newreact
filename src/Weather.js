@@ -5,6 +5,7 @@ import WeatherDetails from "./WeatherDetails";
 import WeatherForecast from "./WeatherForecast";
 import { ColorRing } from "react-loader-spinner";
 
+
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -37,6 +38,9 @@ export default function Weather(props) {
   function handleCityChange(event) {
     setCity(event.target.value);
   }
+
+  
+
   if (weatherData.ready) {
     return (
       <div className="Weather">
@@ -62,7 +66,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherDetails details={weatherData} />
-        <WeatherForecast details={weatherData} />
+        <WeatherForecast details={weatherData} />      
        
       </div>
     );

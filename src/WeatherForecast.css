@@ -1,4 +1,5 @@
 .WeatherForecast{
+    
     color: rgb(134, 121, 121);  
     text-align: center;
     margin-top:20px;
@@ -7,4 +8,8 @@
     opacity:60%;
     margin-left: 3px;
     
+    
+}
+.WeatherForecast .ForecastDetails{
+   background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 }

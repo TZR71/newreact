@@ -1,12 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 import Weather from "./Weather";
+
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <Weather defaultCity="Palermo" />
+       
         <footer>
           This project was created by{" "}
           <a
@@ -37,4 +39,7 @@ export default function App() {
       </div>
     </div>
   );
+
+  
+
 }

@@ -3,19 +3,13 @@
     border: rgb(134, 121, 121);
     border-radius: 4px;
     padding:10px 3px;
-    font-size: 18px;
-   
-       
+    font-size: 18px;          
 }
  
 @media (max-width: 950px){
-
     .ForecastDetails{
         margin-bottom: 30px;
         margin-top: 10px;
-    }
-
-   
-    
+    }      
 }
     
